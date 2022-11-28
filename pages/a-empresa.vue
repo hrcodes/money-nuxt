@@ -12,7 +12,11 @@
 
 <script>
 export default {
-  name: 'AEmpresa',
+  name: '',
+  middleware: ['auth'],
+  // middleware() {
+  //  console.log('middleware empresa')
+  // },
 };
 </script>
 
